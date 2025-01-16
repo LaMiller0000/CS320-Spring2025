@@ -1,0 +1,10 @@
+@MyCookBookApi_HostAddress = https://localhost:7247
+
+GET {{MyCookBookApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MyCookBookApi_HostAddress}}/weatherforecast
+
+###

@@ -2,6 +2,11 @@ namespace MyCookBookAssignment1
 {
     public class Program
     {
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+            services.AddHttpClient();
+        }
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +34,8 @@ namespace MyCookBookAssignment1
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
 
             app.Run();
         }

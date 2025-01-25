@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{130F6B84-5D7E-4272-9972-CE17AB2C1A6B}|..\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookassignment1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F6B84-5D7E-4272-9972-CE17AB2C1A6B}|..\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookassignment1\\mycookbookassignment1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C19746-7767-4491-82E7-7FD7C8E8EE3F}|..\\MyCookBookApi\\MyCookBookApi.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookapi\\mycookbookapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C19746-7767-4491-82E7-7FD7C8E8EE3F}|..\\MyCookBookApi\\MyCookBookApi.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C19746-7767-4491-82E7-7FD7C8E8EE3F}|..\\MyCookBookApi\\MyCookBookApi.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookapi\\mycookbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C19746-7767-4491-82E7-7FD7C8E8EE3F}|..\\MyCookBookApi\\MyCookBookApi.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookapi\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F6B84-5D7E-4272-9972-CE17AB2C1A6B}|..\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj|c:\\users\\lucius\\documents\\github\\cs320-spring2025\\assignment1\\mycookbookassignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookAssignment1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\MyCookBookAssignment1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookAssignment1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\MyCookBookAssignment1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T03:08:53.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyCookBookAssignment1.csproj",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj",
+              "RelativeDocumentMoniker": "..\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj",
+              "RelativeToolTip": "..\\MyCookBookAssignment1\\MyCookBookAssignment1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T21:26:12.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "..\\MyCookBookApi\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "..\\MyCookBookApi\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T21:17:58.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyCookBookApi.http",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\MyCookBookApi.http",
+              "RelativeDocumentMoniker": "..\\MyCookBookApi\\MyCookBookApi.http",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\MyCookBookApi.http",
+              "RelativeToolTip": "..\\MyCookBookApi\\MyCookBookApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-23T21:15:39.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MyCookBookApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\Program.cs",
+              "RelativeToolTip": "..\\MyCookBookApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T21:15:34.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyCookBookApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\MyCookBookApi.csproj",
+              "RelativeDocumentMoniker": "..\\MyCookBookApi\\MyCookBookApi.csproj",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookApi\\MyCookBookApi.csproj",
+              "RelativeToolTip": "..\\MyCookBookApi\\MyCookBookApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T21:15:29.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookAssignment1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MyCookBookAssignment1\\Program.cs",
+              "ToolTip": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\Assignment1\\MyCookBookAssignment1\\Program.cs",
+              "RelativeToolTip": "..\\MyCookBookAssignment1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T21:03:34.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

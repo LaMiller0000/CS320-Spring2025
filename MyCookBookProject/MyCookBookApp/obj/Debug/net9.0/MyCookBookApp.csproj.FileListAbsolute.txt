@@ -7,6 +7,8 @@ C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\bin\Debug\net9.0\MyCookB
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\bin\Debug\net9.0\MyCookBookApp.runtimeconfig.json
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\bin\Debug\net9.0\MyCookBookApp.dll
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\bin\Debug\net9.0\MyCookBookApp.pdb
+C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.csproj.AssemblyReference.cache
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.AssemblyInfoInputs.cache
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.AssemblyInfo.cs
@@ -19,6 +21,7 @@ C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\scopedc
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\scopedcss\projectbundle\MyCookBookApp.bundle.scp.css
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\compressed\8fzzw5f1e2-b9sayid5wm.gz
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\compressed\fi6u8yn9fx-61n19gt1b8.gz
+C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\compressed\wr2ivglgki-2fdv6ocpdz.gz
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\compressed\tyx60k8rsr-xtxxf3hu2r.gz
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\compressed\gukyj4m4cd-bqjiyaj88i.gz
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\compressed\8k98bphbqr-c2jlpeoesf.gz
@@ -90,11 +93,9 @@ C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\staticw
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.MyCookBookApp.props
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.MyCookBookApp.props
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBo.D39A3E8C.Up2Date
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.dll
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\refint\MyCookBookApp.dll
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.pdb
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.genruntimeconfig.cache
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\ref\MyCookBookApp.dll
-C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBookApp.csproj.AssemblyReference.cache
-C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\bin\Debug\net9.0\Newtonsoft.Json.dll
-C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApp\obj\Debug\net9.0\MyCookBo.D39A3E8C.Up2Date

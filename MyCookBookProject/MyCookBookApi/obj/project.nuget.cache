@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0I4zLZDdQ4c=",
+  "dgSpecHash": "z22RZ0JCdHQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\MyCookBookApi\\MyCookBookApi.csproj",
+  "projectFilePath": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\MyCookBookApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucius\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "C:\\Users\\Lucius\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"

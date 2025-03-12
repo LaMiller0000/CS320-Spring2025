@@ -31,14 +31,3 @@ C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\refint\
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.pdb
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.genruntimeconfig.cache
 C:\Users\Lucius\Desktop\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\ref\MyCookBookApi.dll
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.csproj.AssemblyReference.cache
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.AssemblyInfoInputs.cache
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.AssemblyInfo.cs
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.csproj.CoreCompileInputs.cache
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.sourcelink.json
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.dll
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\refint\MyCookBookApi.dll
-C:\Users\Lucius\Documents\GitHub\CS320-Spring2025\MyCookBookProject\MyCookBookApi\obj\Debug\net9.0\MyCookBookApi.pdb

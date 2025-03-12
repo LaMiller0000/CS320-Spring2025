@@ -1,24 +1,30 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using MyCookBookApp.Services;
 using MyCookBookApp.Models;
 
 namespace MyCookBookApp.Controllers;
 
-public class HomeController : Controller
+public class Home : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<Home> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public Home(ILogger<Home> logger)
     {
         _logger = logger;
     }
 
     public IActionResult Index()
     {
-        return View();
+        return View(_logger);
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    public IActionResult Recipe()
     {
         return View();
     }

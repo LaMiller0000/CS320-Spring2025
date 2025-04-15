@@ -1,26 +1,68 @@
-using Xunit;
-using MyCookBookApi.Models; // Namespace for the Recipe model
+using MyCookBookApi.Models;
 using System.Collections.Generic;
+using System.Text.Json;
+using Xunit;
 
-namespace MyCookBookApi.Tests
+namespace MyCookBookApi.Tests.Models
 {
     public class RecipeModelTests
     {
         [Fact]
-        public void RecipeModel_ShouldStoreDataCorrectly()
+        public void Recipe_DefaultConstructor_ShouldInitializeLists()
         {
-            // Arrange
+            var recipe = new Recipe();
+
+            Assert.NotNull(recipe.Ingredients);
+            Assert.NotNull(recipe.Instructions);
+            Assert.NotNull(recipe.Categories);
+            Assert.NotNull(recipe.Media);
+        }
+
+        [Fact]
+        public void Recipe_CanSetAndRetrieveValues()
+        {
             var recipe = new Recipe
             {
-                Name = "Pasta",
-                Ingredients = new List<string> { "Pasta", "Tomato Sauce" },
-                Steps = "Boil pasta."
+                Name = "Test",
+                Summary = "Summary",
+                Ingredients = new List<string> { "i1", "i2" },
+                Instructions = new List<string> { "s1" },
+                Categories = new List<CategoryType> { CategoryType.Snack }
             };
 
-            // Assert
-            Assert.Equal("Pasta", recipe.Name);
-            Assert.Contains("Tomato Sauce", recipe.Ingredients);
-            Assert.Equal("Boil pasta.", recipe.Steps);
+            Assert.Equal("Test", recipe.Name);
+            Assert.Equal("Summary", recipe.Summary);
+            Assert.Contains("i1", recipe.Ingredients);
+            Assert.Single(recipe.Instructions);
+            Assert.Contains(CategoryType.Snack, recipe.Categories);
         }
+
+        [Fact]
+        public void RecipeSearchRequest_DefaultConstructor_ShouldInitializeCategories()
+        {
+            var request = new RecipeSearchRequest();
+
+            Assert.NotNull(request.Categories);
+            Assert.Empty(request.Categories);
+        }
+
+        // CategoryTypeConverter Test
+        [Fact]
+        public void Recipe_SerializesAndDeserializes_Correctly()
+        {
+            var recipe = new Recipe
+            {
+                Name = "SerializeTest",
+                Categories = new List<CategoryType> { CategoryType.Breakfast }
+            };
+
+            var json = JsonSerializer.Serialize(recipe);
+            var deserialized = JsonSerializer.Deserialize<Recipe>(json);
+
+            Assert.Equal("SerializeTest", deserialized.Name);
+            Assert.Contains(CategoryType.Breakfast, deserialized.Categories);
+        }
+
     }
 }
+

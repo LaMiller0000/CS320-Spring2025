@@ -43,6 +43,8 @@ namespace MyCookBookApp.Controllers
     [Route("Recipe")]
     public class RecipeController : Controller
     {
+
+
         private readonly RecipeService _recipeService;
 
         public RecipeController(RecipeService recipeService)
@@ -96,7 +98,6 @@ namespace MyCookBookApp.Controllers
             return Json(recipe);
         }
 
-
                 // Delete a Recipe (DELETE /Recipe/Delete/{id})
         [HttpDelete("Delete/{id}")]
         public async Task<IActionResult> DeleteRecipe(string id)
@@ -124,13 +125,13 @@ namespace MyCookBookApp.Controllers
         {
             Console.WriteLine("Received Recipe: " + JsonConvert.SerializeObject(recipe));
             // TODO: Add Validation
-            // if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name) ||
-            // recipe.Ingredients == null || recipe.Ingredients.Count == 0 ||
-            // recipe.Instructions == null || recipe.Instructions.Count == 0 ||
-            // string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories == null)
-            // {
-            // return BadRequest(new { success = false, message = "Invalid recipe data" });
-            // }
+            if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name) ||
+            recipe.Ingredients == null || recipe.Ingredients.Count == 0 ||
+            recipe.Instructions == null || recipe.Instructions.Count == 0 ||
+            string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories == null)
+            {
+                return BadRequest(new { success = false, message = "Invalid recipe data" });
+            }
             bool added = await _recipeService.AddRecipeAsync(recipe);
             return Json(new { success = added, message = added ? "Recipe added successfully" : "Failed to add recipe" });
         }

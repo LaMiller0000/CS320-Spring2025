@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dej8jfa63m</Fingerprint>
-      <Integrity>yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=</Integrity>
+      <Fingerprint>t2im7jll8r</Fingerprint>
+      <Integrity>BShZFJ0vKTp/hqvSBKlbj/TT9cEgSLDq4cTPQLAsj0o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YourServiceAccountKey.json'))</OriginalItemSpec>

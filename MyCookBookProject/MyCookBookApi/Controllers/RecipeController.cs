@@ -40,9 +40,9 @@ using MyCookBookApi.Models;
 using MyCookBookApi.Services;
 namespace MyCookBookApi.Controllers
 {
-[Route("api/[controller]")]
-[ApiController]
-public class RecipeController : ControllerBase
+    [Route("api/[controller]")]
+    [ApiController]
+    public class RecipeController : ControllerBase
     {
         private readonly IRecipeService _recipeService;
         public RecipeController(IRecipeService recipeService)
@@ -76,10 +76,6 @@ public class RecipeController : ControllerBase
             return NoContent();
         }
 
-
-
-
-
         [HttpGet]
         public ActionResult<IEnumerable<Recipe>> GetAllRecipes()
         {
@@ -109,18 +105,20 @@ public class RecipeController : ControllerBase
             var recipes = _recipeService.SearchRecipes(searchRequest);
             return Ok(recipes);
         }
-    [HttpPost]
-    public ActionResult<Recipe> CreateRecipe([FromBody] Recipe recipe)
+
+        [HttpPost]
+        public ActionResult<Recipe> CreateRecipe([FromBody] Recipe recipe)
         {
             if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name))
             {
                 return BadRequest("Invalid recipe data.");
             }
+            else{
+                recipe.RecipeId = Guid.NewGuid().ToString();
+                _recipeService.AddRecipe(recipe);
+                return CreatedAtAction(nameof(GetRecipeById), new { id = recipe.RecipeId }, recipe);
+            }
             // Ensure RecipeId is created in the backend
-            recipe.RecipeId = Guid.NewGuid().ToString();
-            _recipeService.AddRecipe(recipe);
-            return CreatedAtAction(nameof(GetRecipeById), new { id = recipe.RecipeId
-                }, recipe);
         }
     }           
 }

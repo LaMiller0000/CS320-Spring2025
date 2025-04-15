@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj": {}
+    "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj": {
+    "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj",
+        "projectUniqueName": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj",
         "projectName": "MyCookBookApp",
-        "projectPath": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj",
-        "packagesPath": "C:\\Users\\Lucius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapp\\obj\\",
+        "projectPath": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapp\\MyCookBookApp.csproj",
+        "packagesPath": "C:\\Users\\opeeo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\opeeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

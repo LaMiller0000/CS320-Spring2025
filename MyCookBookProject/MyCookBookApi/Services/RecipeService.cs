@@ -18,12 +18,8 @@ namespace MyCookBookApi.Services
         
         public List<Recipe> GetAllRecipes() => _recipeRepository.GetAllRecipes();
         public Recipe GetRecipeById(string id) => _recipeRepository.GetRecipeById(id);
-        public List<Recipe> SearchRecipes(RecipeSearchRequest searchRequest) =>
-        _recipeRepository.SearchRecipes(searchRequest);
+        public List<Recipe> SearchRecipes(RecipeSearchRequest searchRequest) => _recipeRepository.SearchRecipes(searchRequest);
         public void AddRecipe(Recipe recipe) => _recipeRepository.AddRecipe(recipe);
         
-
-
-
     }
 }

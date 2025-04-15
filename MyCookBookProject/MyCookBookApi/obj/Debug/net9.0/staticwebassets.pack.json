@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "PackagePath": "staticwebassets\\YourServiceAccountKey.json"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyCookBookApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyCookBookApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyCookBookApi.props",
+      "PackagePath": "build\\MyCookBookApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyCookBookApi.props",
+      "PackagePath": "buildMultiTargeting\\MyCookBookApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyCookBookApi.props",
+      "PackagePath": "buildTransitive\\MyCookBookApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

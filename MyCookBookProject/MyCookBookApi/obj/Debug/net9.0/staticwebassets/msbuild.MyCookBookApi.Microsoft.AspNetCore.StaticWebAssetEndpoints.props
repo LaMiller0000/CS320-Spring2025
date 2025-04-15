@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MyCookBookApi/YourServiceAccountKey.dej8jfa63m.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YourServiceAccountKey.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dej8jfa63m"},{"Name":"integrity","Value":"sha256-yzw8/DOuCi2EpgaOW/tM\u002Bxyr78pGKAbw/WzxTGvTBtQ="},{"Name":"label","Value":"_content/MyCookBookApi/YourServiceAccountKey.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2376"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022yzw8/DOuCi2EpgaOW/tM\u002Bxyr78pGKAbw/WzxTGvTBtQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 20:22:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyCookBookApi/YourServiceAccountKey.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YourServiceAccountKey.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yzw8/DOuCi2EpgaOW/tM\u002Bxyr78pGKAbw/WzxTGvTBtQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2376"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022yzw8/DOuCi2EpgaOW/tM\u002Bxyr78pGKAbw/WzxTGvTBtQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 20:22:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

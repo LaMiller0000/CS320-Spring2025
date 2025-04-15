@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "V5wsO/4GvCyQwD6FvtJGIRcVHnkv9InQzemIidlaJKQ=",
+  "Source": "MyCookBookApi",
+  "BasePath": "_content/MyCookBookApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyCookBookApi\\wwwroot",
+      "Source": "MyCookBookApi",
+      "ContentRoot": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\",
+      "BasePath": "_content/MyCookBookApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-dej8jfa63m.gz",
+      "SourceId": "MyCookBookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyCookBookApi",
+      "RelativePath": "YourServiceAccountKey#[.{fingerprint=dej8jfa63m}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "densc84quo",
+      "Integrity": "ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json"
+    },
+    {
+      "Identity": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "SourceId": "MyCookBookApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\",
+      "BasePath": "_content/MyCookBookApi",
+      "RelativePath": "YourServiceAccountKey#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dej8jfa63m",
+      "Integrity": "yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\YourServiceAccountKey.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "YourServiceAccountKey.dej8jfa63m.json",
+      "AssetFile": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-dej8jfa63m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000597728631"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dej8jfa63m"
+        },
+        {
+          "Name": "label",
+          "Value": "YourServiceAccountKey.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.dej8jfa63m.json",
+      "AssetFile": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dej8jfa63m"
+        },
+        {
+          "Name": "label",
+          "Value": "YourServiceAccountKey.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.dej8jfa63m.json.gz",
+      "AssetFile": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-dej8jfa63m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dej8jfa63m"
+        },
+        {
+          "Name": "label",
+          "Value": "YourServiceAccountKey.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.json",
+      "AssetFile": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-dej8jfa63m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000597728631"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.json",
+      "AssetFile": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.json.gz",
+      "AssetFile": "C:\\Users\\Lucius\\Desktop\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-dej8jfa63m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs="
+        }
+      ]
+    }
+  ]
+}

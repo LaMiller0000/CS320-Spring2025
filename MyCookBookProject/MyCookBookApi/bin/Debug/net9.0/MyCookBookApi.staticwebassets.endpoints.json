@@ -1,0 +1,304 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "YourServiceAccountKey.dej8jfa63m.json",
+      "AssetFile": "YourServiceAccountKey.json.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000597728631"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dej8jfa63m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        },
+        {
+          "Name": "label",
+          "Value": "YourServiceAccountKey.json"
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.dej8jfa63m.json",
+      "AssetFile": "YourServiceAccountKey.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dej8jfa63m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        },
+        {
+          "Name": "label",
+          "Value": "YourServiceAccountKey.json"
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.dej8jfa63m.json.gz",
+      "AssetFile": "YourServiceAccountKey.json.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dej8jfa63m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs="
+        },
+        {
+          "Name": "label",
+          "Value": "YourServiceAccountKey.json.gz"
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.json",
+      "AssetFile": "YourServiceAccountKey.json.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000597728631"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.json",
+      "AssetFile": "YourServiceAccountKey.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzw8/DOuCi2EpgaOW/tM+xyr78pGKAbw/WzxTGvTBtQ="
+        }
+      ]
+    },
+    {
+      "Route": "YourServiceAccountKey.json.gz",
+      "AssetFile": "YourServiceAccountKey.json.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:22:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ddFJS7HOCK03xUwtby9WNhUSwWYJIs2cvU3+tQ7fEJs="
+        }
+      ]
+    }
+  ]
+}

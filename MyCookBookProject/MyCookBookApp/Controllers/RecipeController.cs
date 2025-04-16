@@ -128,7 +128,8 @@ namespace MyCookBookApp.Controllers
             if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name) ||
             recipe.Ingredients == null || recipe.Ingredients.Count == 0 ||
             recipe.Instructions == null || recipe.Instructions.Count == 0 ||
-            string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories == null)
+            string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories == null
+            || recipe.VideoId == null || recipe.Description == null|| recipe.Title == null)
             {
                 return BadRequest(new { success = false, message = "Invalid recipe data" });
             }

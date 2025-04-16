@@ -1,6 +1,16 @@
 /* _content/MyCookBookApp/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+.navbar[b-buyr76sqbf] {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* Ensure it stays above other elements */
+}
+body[b-buyr76sqbf] {
+  padding-top: 56px; /* Adjust for the height of the fixed navbar */
+}
+
 
 a.navbar-brand[b-buyr76sqbf] {
   white-space: normal;

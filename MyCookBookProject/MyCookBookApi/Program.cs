@@ -14,8 +14,8 @@ using MyCookBookApi.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddSingleton<IRecipeRepository, MockRecipeRepository>();
-builder.Services.AddSingleton<IRecipeRepository, FirebaseDbRecipeRepository>();
+builder.Services.AddSingleton<IRecipeRepository, MockRecipeRepository>();
+//builder.Services.AddSingleton<IRecipeRepository, FirebaseDbRecipeRepository>();
 builder.Services.AddScoped<IRecipeService, RecipeService>();
 builder.Services.AddEndpointsApiExplorer();
 

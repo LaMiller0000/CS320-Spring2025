@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ElYw+R2kCp+9/dBRIbOGohnz7c44poxq6jzqs+fCCpk=",
+  "Hash": "imDF3xoi/Ark0G8GHh/7JogX3njs9EL2sl5zGn0Dhj4=",
   "Source": "MyCookBookApi",
   "BasePath": "_content/MyCookBookApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MyCookBookApi\\wwwroot",
       "Source": "MyCookBookApi",
-      "ContentRoot": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\",
       "BasePath": "_content/MyCookBookApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
+      "Identity": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
       "SourceId": "MyCookBookApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MyCookBookApi",
       "RelativePath": "YourServiceAccountKey#[.{fingerprint=t2im7jll8r}]?.json.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "RelatedAsset": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "kiv40zutxz",
       "Integrity": "jAT2JT9PirtcUMSrBFUkhCMCp+xJoLdk40lE6fp+2vc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json"
+      "OriginalItemSpec": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json"
     },
     {
-      "Identity": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "Identity": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
       "SourceId": "MyCookBookApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\",
       "BasePath": "_content/MyCookBookApi",
       "RelativePath": "YourServiceAccountKey#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -62,7 +62,7 @@
   "Endpoints": [
     {
       "Route": "YourServiceAccountKey.json",
-      "AssetFile": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
+      "AssetFile": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -85,7 +85,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 01:44:19 GMT"
+          "Value": "Wed, 16 Apr 2025 13:32:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -117,7 +117,7 @@
     },
     {
       "Route": "YourServiceAccountKey.json",
-      "AssetFile": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "AssetFile": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -138,7 +138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 01:44:19 GMT"
+          "Value": "Wed, 16 Apr 2025 13:32:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -154,7 +154,7 @@
     },
     {
       "Route": "YourServiceAccountKey.json.gz",
-      "AssetFile": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
+      "AssetFile": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -175,7 +175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 01:44:19 GMT"
+          "Value": "Wed, 16 Apr 2025 13:32:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -199,7 +199,7 @@
     },
     {
       "Route": "YourServiceAccountKey.t2im7jll8r.json",
-      "AssetFile": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
+      "AssetFile": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -222,7 +222,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 01:44:19 GMT"
+          "Value": "Wed, 16 Apr 2025 13:32:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -262,7 +262,7 @@
     },
     {
       "Route": "YourServiceAccountKey.t2im7jll8r.json",
-      "AssetFile": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
+      "AssetFile": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\wwwroot\\YourServiceAccountKey.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -283,7 +283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 01:44:19 GMT"
+          "Value": "Wed, 16 Apr 2025 13:32:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -307,7 +307,7 @@
     },
     {
       "Route": "YourServiceAccountKey.t2im7jll8r.json.gz",
-      "AssetFile": "C:\\Users\\opeeo\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
+      "AssetFile": "C:\\Users\\Lucius\\Documents\\GitHub\\CS320-Spring2025\\MyCookBookProject\\mycookbookapi\\obj\\Debug\\net9.0\\compressed\\boutiofzdd-t2im7jll8r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -328,7 +328,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 01:44:19 GMT"
+          "Value": "Wed, 16 Apr 2025 13:32:44 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -12,6 +12,5 @@ namespace MyCookBookApi.Services
 
         bool UpdateRecipe(string id, Recipe recipe);
         void AddRecipe(Recipe recipe);
-        
     }
 }

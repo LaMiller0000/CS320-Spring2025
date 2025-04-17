@@ -29,7 +29,7 @@ namespace MyCookBookApp.Controllers
 }
 */
 
-
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MyCookBookApp.Services;
 using System.Threading.Tasks;
@@ -65,14 +65,18 @@ namespace MyCookBookApp.Controllers
         public async Task<IActionResult> EditRecipe(string id, [FromBody] Recipe
         recipe)
         {
-        if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name) ||
-        recipe.Ingredients == null || recipe.Ingredients.Count == 0 ||
-        recipe.Instructions == null || recipe.Instructions.Count == 0 ||
-        string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories ==
-        null)
-        {
-        return BadRequest(new { success = false, message = "Invalid recipe data" });
-        }
+            if (recipe == null || 
+                string.IsNullOrWhiteSpace(recipe.Name) || 
+                string.IsNullOrWhiteSpace(recipe.Summary) || 
+                string.IsNullOrWhiteSpace(recipe.VideoId) || 
+                string.IsNullOrWhiteSpace(recipe.Title) || 
+                string.IsNullOrWhiteSpace(recipe.Description) || 
+                recipe.Ingredients == null || recipe.Ingredients.Count == 0 || 
+                recipe.Instructions == null || recipe.Instructions.Count == 0 || 
+                (recipe.Categories == null || !recipe.Categories.Any()))
+            {
+                return BadRequest(new { success = false, message = "Invalid recipe data. Ensure all required fields are provided." });
+            }
         bool updated = await _recipeService.UpdateRecipeAsync(recipe);
         return Json(new { success = updated, message = updated ? "Recipe updated successfully" : "Failed to update recipe" }); }   
 
@@ -119,22 +123,42 @@ namespace MyCookBookApp.Controllers
             return Json(recipes);
         }
 
-        // Add a Recipe (POST /Recipe/Add)
         [HttpPost("Add")]
         public async Task<IActionResult> AddRecipe([FromBody] Recipe recipe)
         {
+            // Log the incoming recipe object
             Console.WriteLine("Received Recipe: " + JsonConvert.SerializeObject(recipe));
-            // TODO: Add Validation
-            if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name) ||
-            recipe.Ingredients == null || recipe.Ingredients.Count == 0 ||
-            recipe.Instructions == null || recipe.Instructions.Count == 0 ||
-            string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories == null
-            || recipe.VideoId == null || recipe.Description == null|| recipe.Title == null)
+
+            // Validate the recipe data
+            if (recipe == null || 
+                string.IsNullOrWhiteSpace(recipe.VideoId) || 
+                string.IsNullOrWhiteSpace(recipe.Title) || 
+                string.IsNullOrWhiteSpace(recipe.Description) || 
+                string.IsNullOrWhiteSpace(recipe.Name) || 
+                string.IsNullOrWhiteSpace(recipe.Summary) || 
+                recipe.Ingredients == null || recipe.Ingredients.Count == 0 || 
+                recipe.Instructions == null || recipe.Instructions.Count == 0 || 
+                (recipe.Categories == null || !recipe.Categories.Any()))
             {
-                return BadRequest(new { success = false, message = "Invalid recipe data" });
+                return BadRequest(new { success = false, message = "Invalid recipe data. Ensure all required fields are provided." });
             }
-            bool added = await _recipeService.AddRecipeAsync(recipe);
-            return Json(new { success = added, message = added ? "Recipe added successfully" : "Failed to add recipe" });
+
+        
+                // Call the AddRecipeAsync service to save the recipe
+                Console.WriteLine($"Name: {recipe.Name}, Summary: {recipe.Summary}, VideoId: {recipe.VideoId}");
+                bool added = await _recipeService.AddRecipeAsync(recipe);
+                Console.WriteLine(added);
+
+                // Return success or failure response
+                return Json(new { 
+                    success = added, 
+                    message = added ? "Recipe added successfully" : "Failed to add recipe" });
+            
+
+                // Handle exceptions and return an error response
+                //Console.WriteLine($"Error adding recipe: {ex.Message}");
+                //return StatusCode(500, new { success = false, message = "An error occurred while adding the recipe." });
+            
         }
     }
 }

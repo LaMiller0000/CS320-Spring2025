@@ -21,10 +21,34 @@ namespace MyCookBookApp.Services
 
         public async Task<List<Recipe>> GetRecipesAsync()
         {
-            var response = await _httpClient.GetAsync($"{_baseUrl}/recipe");
-            response.EnsureSuccessStatusCode();
-            var json = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<List<Recipe>>(json);
+            try
+            {
+                // Send the GET request
+                var response = await _httpClient.GetAsync($"{_baseUrl}/recipe");
+                
+                // Ensure response status is successful
+                response.EnsureSuccessStatusCode();
+                
+                // Read the JSON content
+                var json = await response.Content.ReadAsStringAsync();
+                
+                // Deserialize into the Recipe list
+                var recipes = JsonConvert.DeserializeObject<List<Recipe>>(json);
+                
+                if (recipes == null || recipes.Count == 0)
+                {
+                    Console.WriteLine("No recipes found.");
+                    return new List<Recipe>(); // Return an empty list to avoid null issues
+                }
+                
+                return recipes;
+            }
+            catch (Exception ex)
+            {
+                // Log any errors
+                Console.WriteLine($"Error fetching recipes: {ex.Message}");
+                return new List<Recipe>(); // Return an empty list in case of an error
+            }
         }
 
         

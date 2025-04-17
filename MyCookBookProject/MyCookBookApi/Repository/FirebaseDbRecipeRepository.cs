@@ -241,7 +241,6 @@ namespace MyCookBookApi.Repositories
             }
         }
 
-        // 🔹 Update Recipe
         private async Task<bool> UpdateRecipeAsync(string id, Recipe updatedRecipe)
         {
             if (updatedRecipe == null) return false;
@@ -253,14 +252,20 @@ namespace MyCookBookApi.Repositories
 
             if (!snapshot.Exists) return false;
 
+            // Build the update data
             Dictionary<string, object> updateData = new()
             {
+                { "VideoId", updatedRecipe.VideoId },
+                { "Title", updatedRecipe.Title },
+                { "Description", updatedRecipe.Description },                
                 { "Name", updatedRecipe.Name },
                 { "TagLine", updatedRecipe.TagLine },
                 { "Summary", updatedRecipe.Summary },
                 { "Ingredients", updatedRecipe.Ingredients ?? new List<string>() },
                 { "Instructions", updatedRecipe.Instructions ?? new List<string>() },
-                { "Categories", updatedRecipe.Categories?.Select(c => c.ToString()).ToList() ?? new List<string>() },
+                { "Categories", updatedRecipe.Categories != null 
+                    ? updatedRecipe.Categories.Select(c => c.ToString()).ToList() 
+                    : new List<string>() },
                 { "Media", updatedRecipe.Media != null
                     ? updatedRecipe.Media.Select(m => new Dictionary<string, object>
                         {
@@ -271,8 +276,16 @@ namespace MyCookBookApi.Repositories
                     : new List<Dictionary<string, object>>() }
             };
 
-            await docRef.UpdateAsync(updateData);
-            return true;
+            try
+            {
+                await docRef.UpdateAsync(updateData);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error updating document: {ex.Message}");
+                return false;
+            }
         }
 
         // 🔹 Delete Recipe

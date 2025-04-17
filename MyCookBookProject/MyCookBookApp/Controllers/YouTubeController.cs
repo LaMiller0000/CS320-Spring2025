@@ -16,7 +16,7 @@ namespace MyCookBookApp.Controllers
             // Create a sample video model
             var video = new YouTubeVideoModel
             {
-                VideoId = "https://youtu.be/1On-ZHfTWOo?si=45Z_8LYxsIMKtqKv", // Replace with an actual YouTube Video ID
+                VideoId = "1On-ZHfTWOo?si=45Z_8LYxsIMKtqKv", // Replace with an actual YouTube Video ID
                 Title = "Sample YouTube Video",
                 Description = "This is a sample description for the YouTube video."
             };

@@ -772,13 +772,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MyCookBookApp.szw5mnhntb.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uGfSLISJdZH4dtKHDe3GXvgNOuBccEaYrLthwZs9C6E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1364"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uGfSLISJdZH4dtKHDe3GXvgNOuBccEaYrLthwZs9C6E=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 23:38:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1364"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uGfSLISJdZH4dtKHDe3GXvgNOuBccEaYrLthwZs9C6E=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 23:54:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MyCookBookApp/MyCookBookApp.szw5mnhntb.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MyCookBookApp.szw5mnhntb.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"szw5mnhntb"},{"Name":"integrity","Value":"sha256-uGfSLISJdZH4dtKHDe3GXvgNOuBccEaYrLthwZs9C6E="},{"Name":"label","Value":"_content/MyCookBookApp/MyCookBookApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1364"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uGfSLISJdZH4dtKHDe3GXvgNOuBccEaYrLthwZs9C6E=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 23:38:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1364"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uGfSLISJdZH4dtKHDe3GXvgNOuBccEaYrLthwZs9C6E=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 23:54:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MyCookBookApp/YourServiceAccountKey.61n19gt1b8.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YourServiceAccountKey.json'))</AssetFile>

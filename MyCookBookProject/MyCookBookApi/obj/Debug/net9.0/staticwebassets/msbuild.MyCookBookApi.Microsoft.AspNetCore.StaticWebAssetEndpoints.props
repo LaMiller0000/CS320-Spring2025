@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/MyCookBookApi/YourServiceAccountKey.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YourServiceAccountKey.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pLC687rALVJRvAuuTVmyaiMhHZXwRi\u002BDiHn6ZRDp\u002BDw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2376"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022pLC687rALVJRvAuuTVmyaiMhHZXwRi\u002BDiHn6ZRDp\u002BDw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 23:01:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-K8x0XN1FlHX1Y\u002BtTCz4rYhk8i9vrsvMl1kAoOYa\u002BRbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2389"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022K8x0XN1FlHX1Y\u002BtTCz4rYhk8i9vrsvMl1kAoOYa\u002BRbY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 00:09:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MyCookBookApi/YourServiceAccountKey.w9s60rxqr6.json">
+    <StaticWebAssetEndpoint Include="_content/MyCookBookApi/YourServiceAccountKey.lcth5413yy.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YourServiceAccountKey.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w9s60rxqr6"},{"Name":"integrity","Value":"sha256-pLC687rALVJRvAuuTVmyaiMhHZXwRi\u002BDiHn6ZRDp\u002BDw="},{"Name":"label","Value":"_content/MyCookBookApi/YourServiceAccountKey.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2376"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022pLC687rALVJRvAuuTVmyaiMhHZXwRi\u002BDiHn6ZRDp\u002BDw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 23:01:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lcth5413yy"},{"Name":"integrity","Value":"sha256-K8x0XN1FlHX1Y\u002BtTCz4rYhk8i9vrsvMl1kAoOYa\u002BRbY="},{"Name":"label","Value":"_content/MyCookBookApi/YourServiceAccountKey.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2389"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022K8x0XN1FlHX1Y\u002BtTCz4rYhk8i9vrsvMl1kAoOYa\u002BRbY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 00:09:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

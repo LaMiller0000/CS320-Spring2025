@@ -13,15 +13,14 @@ namespace MyCookBookApp.Controllers
     {
         public IActionResult Player()
         {
-            // Create a sample video model
             var video = new YouTubeVideoModel
             {
-                VideoId = "playlist?list=PLopY4n17t8RD-xx0UdVqemiSa0sRfyX19&si=oYyrtGo-q9vE1z90", // Replace with an actual YouTube Video ID
+                VideoId = "playlist?list=PLopY4n17t8RD-xx0UdVqemiSa0sRfyX19&si=oYyrtGo-q9vE1z90",
                 Title = "Basic Cooking Playlist",
                 Description = "A selected playlist to help you learn to cook, and to help your own kitchen."
             };
 
-            return View(video); // Pass the model to the view
+            return View(video);
         }
     }
 }

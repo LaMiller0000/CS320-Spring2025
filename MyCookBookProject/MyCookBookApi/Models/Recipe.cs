@@ -6,9 +6,6 @@ namespace MyCookBookApi.Models
     [FirestoreData] // 🔥 Marks the class as Firestore-compatible
     public class Recipe
     {
-        [FirestoreProperty] public string VideoId { get; set; } // The ID of the YouTube video
-        [FirestoreProperty] public string Title { get; set; }   // Title of the video
-        [FirestoreProperty] public string Description { get; set; } // Short description
         [FirestoreProperty] public string RecipeId { get; set; } // Auto-generated,
         //cannot be set manually
         [FirestoreProperty] public string Name { get; set; }

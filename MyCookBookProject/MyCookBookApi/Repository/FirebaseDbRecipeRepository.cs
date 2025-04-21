@@ -254,10 +254,7 @@ namespace MyCookBookApi.Repositories
 
             // Build the update data
             Dictionary<string, object> updateData = new()
-            {
-                { "VideoId", updatedRecipe.VideoId },
-                { "Title", updatedRecipe.Title },
-                { "Description", updatedRecipe.Description },                
+            {         
                 { "Name", updatedRecipe.Name },
                 { "TagLine", updatedRecipe.TagLine },
                 { "Summary", updatedRecipe.Summary },

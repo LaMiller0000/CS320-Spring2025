@@ -68,9 +68,6 @@ namespace MyCookBookApp.Controllers
             if (recipe == null || 
                 string.IsNullOrWhiteSpace(recipe.Name) || 
                 string.IsNullOrWhiteSpace(recipe.Summary) || 
-                string.IsNullOrWhiteSpace(recipe.VideoId) || 
-                string.IsNullOrWhiteSpace(recipe.Title) || 
-                string.IsNullOrWhiteSpace(recipe.Description) || 
                 recipe.Ingredients == null || recipe.Ingredients.Count == 0 || 
                 recipe.Instructions == null || recipe.Instructions.Count == 0 || 
                 (recipe.Categories == null || !recipe.Categories.Any()))
@@ -131,9 +128,6 @@ namespace MyCookBookApp.Controllers
 
             // Validate the recipe data
             if (recipe == null || 
-                string.IsNullOrWhiteSpace(recipe.VideoId) || 
-                string.IsNullOrWhiteSpace(recipe.Title) || 
-                string.IsNullOrWhiteSpace(recipe.Description) || 
                 string.IsNullOrWhiteSpace(recipe.Name) || 
                 string.IsNullOrWhiteSpace(recipe.Summary) || 
                 recipe.Ingredients == null || recipe.Ingredients.Count == 0 || 
@@ -145,7 +139,6 @@ namespace MyCookBookApp.Controllers
 
         
                 // Call the AddRecipeAsync service to save the recipe
-                Console.WriteLine($"Name: {recipe.Name}, Summary: {recipe.Summary}, VideoId: {recipe.VideoId}");
                 bool added = await _recipeService.AddRecipeAsync(recipe);
                 Console.WriteLine(added);
 

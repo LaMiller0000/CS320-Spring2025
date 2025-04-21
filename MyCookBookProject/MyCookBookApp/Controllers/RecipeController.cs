@@ -127,14 +127,12 @@ namespace MyCookBookApp.Controllers
             Console.WriteLine("Received Recipe: " + JsonConvert.SerializeObject(recipe));
 
             // Validate the recipe data
-            if (recipe == null || 
-                string.IsNullOrWhiteSpace(recipe.Name) || 
-                string.IsNullOrWhiteSpace(recipe.Summary) || 
-                recipe.Ingredients == null || recipe.Ingredients.Count == 0 || 
-                recipe.Instructions == null || recipe.Instructions.Count == 0 || 
-                (recipe.Categories == null || !recipe.Categories.Any()))
+            if (recipe == null || string.IsNullOrWhiteSpace(recipe.Name) ||
+            recipe.Ingredients == null || recipe.Ingredients.Count == 0 ||
+            recipe.Instructions == null || recipe.Instructions.Count == 0 ||
+            string.IsNullOrWhiteSpace(recipe.Summary) || recipe.Categories == null)
             {
-                return BadRequest(new { success = false, message = "Invalid recipe data. Ensure all required fields are provided." });
+                return BadRequest(new { success = false, message = "Invalid recipe data" });
             }
 
         

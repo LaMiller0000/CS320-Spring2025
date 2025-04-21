@@ -58,12 +58,12 @@ document.addEventListener("DOMContentLoaded", function () {
     
     let recipe = {
         recipeId: "NewRecipe_Only",
-        name: document.getElementById("recipeName").value.trim(),
-        tagLine: document.getElementById("tagLine").value.trim(),
-        summary: document.getElementById("summary").value.trim(),
+        name: document.getElementById("Name").value.trim(),
+        tagLine: document.getElementById("TagLine").value.trim(),
+        summary: document.getElementById("Summary").value.trim(),
         ingredients: document.getElementById("ingredients").value.split(",").map(i => i.trim()),
         instructions: document.getElementById("instructions").value.split("\n").map(i => i.trim()),
-        categories: JSON.parse(document.getElementById("categories").value || "[]"),
+        categories: JSON.parse(document.getElementById("categoryList").value || "[]"),
         media: []
     };
     
@@ -121,59 +121,59 @@ document.addEventListener("DOMContentLoaded", function () {
           .catch(error => console.error("Fetch error:", error));
   }
 
-  // Edit Recipe - Fetch Recipe Details and Show Modal
+// Edit Recipe - Fetch Recipe Details and Show Modal
   window.editRecipe = function (recipeId) {
-      fetch(`${BASE_URL}/${recipeId}`)
-          .then(response => response.json())
-          .then(recipe => {
-              if (!recipe) {
-                  console.error("Recipe not found");
-                  return;
-              }
-              
-              // Clear previous selections
-              selectedEditCategories = [];
-              
-              // Debug: Print the full recipe object
-              console.log("Loaded Recipe Object:", JSON.stringify(recipe, null, 2));
-              
-              // Assign recipe values to form fields
-              document.getElementById("editRecipeId").value = recipe.recipeId;
-              document.getElementById("editRecipeName").value = recipe.name;
-              document.getElementById("editTagLine").value = recipe.tagLine || "";
-              document.getElementById("editSummary").value = recipe.summary || "";
-              document.getElementById("editIngredients").value =
-                  Array.isArray(recipe.ingredients) ? recipe.ingredients.join(", ") : "";
-              document.getElementById("editInstructions").value =
-                  Array.isArray(recipe.instructions) ? recipe.instructions.join("\n") : "";
-              
-              // Handle categories
-              const recipeCategories = Array.isArray(recipe.categories) ? recipe.categories : [];
-              selectedEditCategories = [...recipeCategories]; // Copy the array to selectedEditCategories
-              
-              // Update UI for selected categories
-              document.querySelectorAll("#editCategoryList .dropdown-item").forEach(option => {
-                  const categoryValue = parseInt(option.getAttribute("data-value"), 10);
-                  if (recipeCategories.includes(categoryValue)) {
-                      option.classList.add("active");
-                  } else {
-                      option.classList.remove("active");
-                  }
-              });
-              
-              // Update dropdown button text
-              const categoryNames = recipeCategories.map(catId => categoryMapping[catId] || "Unknown");
-              document.getElementById("editCategoryDropdown").innerText =
-                  categoryNames.length > 0 ? categoryNames.join(", ") : "Select Categories";
-              
-              // Store selected categories in hidden input field
-              document.getElementById("editCategories").value = JSON.stringify(recipeCategories);
-              
-              // Show the modal
-              const editRecipeModal = new bootstrap.Modal(document.getElementById('editRecipeModal'));
-              editRecipeModal.show();
-          })
-          .catch(error => console.error("Error fetching recipe:", error));
+    fetch(`${BASE_URL}/${recipeId}`)  // Use backticks instead of double quotes
+        .then(response => response.json())
+        .then(recipe => {
+            if (!recipe) {
+                console.error("Recipe not found");
+                return;
+            }
+            
+            // Clear previous selections
+            selectedEditCategories = [];
+            
+            // Debug: Print the full recipe object
+            console.log("Loaded Recipe Object:", JSON.stringify(recipe, null, 2));
+            
+            // Assign recipe values to form fields
+            document.getElementById("editRecipeId").value = recipe.recipeId;
+            document.getElementById("editRecipeName").value = recipe.name;
+            document.getElementById("editTagLine").value = recipe.tagLine || "";
+            document.getElementById("editSummary").value = recipe.summary || "";
+            document.getElementById("editIngredients").value =
+                Array.isArray(recipe.ingredients) ? recipe.ingredients.join(", ") : "";
+            document.getElementById("editInstructions").value =
+                Array.isArray(recipe.instructions) ? recipe.instructions.join("\n") : "";
+            
+            // Handle categories
+            const recipeCategories = Array.isArray(recipe.categories) ? recipe.categories : [];
+            selectedEditCategories = [...recipeCategories]; // Copy the array to selectedEditCategories
+            
+            // Update UI for selected categories
+            document.querySelectorAll("#editCategoryList .dropdown-item").forEach(option => {
+                const categoryValue = parseInt(option.getAttribute("data-value"), 10);
+                if (recipeCategories.includes(categoryValue)) {
+                    option.classList.add("active");
+                } else {
+                    option.classList.remove("active");
+                }
+            });
+            
+            // Update dropdown button text
+            const categoryNames = recipeCategories.map(catId => categoryMapping[catId] || "Unknown");
+            document.getElementById("editCategoryDropdown").innerText =
+                categoryNames.length > 0 ? categoryNames.join(", ") : "Select Categories";
+            
+            // Store selected categories in hidden input field
+            document.getElementById("editCategories").value = JSON.stringify(recipeCategories);
+            
+            // Show the modal
+            const editRecipeModal = new bootstrap.Modal(document.getElementById('editRecipeModal'));
+            editRecipeModal.show();
+        })
+        .catch(error => console.error("Error fetching recipe:", error));
   };
 
   // Update Recipe function
@@ -241,6 +241,11 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   };
 
+    // Handle Update Recipe event
+  document.getElementById("updateRecipe").addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent form from reloading the page
+    updateRecipe(); // Call the update function
+  });
   // Delete Recipe
   window.deleteRecipe = function (recipeId) {
       if (!confirm("Are you sure you want to delete this recipe?")) return;

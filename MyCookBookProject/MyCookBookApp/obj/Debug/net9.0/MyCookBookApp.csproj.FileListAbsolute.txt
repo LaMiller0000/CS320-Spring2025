@@ -226,7 +226,6 @@ C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\scopedcss\bundle\MyCookBookApp.styles.css
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\scopedcss\projectbundle\MyCookBookApp.bundle.scp.css
-C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\8fzzw5f1e2-b9sayid5wm.gz
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\fi6u8yn9fx-61n19gt1b8.gz
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\tyx60k8rsr-xtxxf3hu2r.gz
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\gukyj4m4cd-t1cqhe9u97.gz
@@ -307,4 +306,5 @@ C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\MyCookBookApp.pdb
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\MyCookBookApp.genruntimeconfig.cache
 C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\ref\MyCookBookApp.dll
-C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\wr2ivglgki-a430caovfp.gz
+C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\wr2ivglgki-4z8jof1yjk.gz
+C:\Users\opeeo\Documents\GitHub\CS320-Spring2025\MyCookBookProject\mycookbookapp\obj\Debug\net9.0\compressed\8fzzw5f1e2-puc0cpibh5.gz

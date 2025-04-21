@@ -20,7 +20,12 @@
     <!-- Recipes Container -->
     <div class="row">
         <div class="col-md-12" id="recipeCards">
-            <!-- Recipe cards dynamically loaded here -->
+            <div class="card mb-3" id="recipeCardTemplate" style="display: none;">
+                <div class="card-body">
+                    <h5 class="card-title" id="recipeName">Recipe Name</h5>
+                    <p class="card-text" id="recipeSummary">Short description of the recipe...</p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Pagination -->
@@ -33,5 +38,6 @@
 <!-- Include Modals -->
 @Html.Partial("_AddRecipeModal")
 @Html.Partial("_EditRecipeModal")
+
 <!-- Ensure script is at the end for proper loading -->
 <script src="/js/recipes.js" asp-append-version="true"></script>
